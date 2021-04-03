@@ -34,8 +34,8 @@ export class Tab1Page {
 
   }
 
-  openInfo() {
-
+  openInfo(series) {
+    this.drawService.openDrawer(series.title)
   }
 
 }
