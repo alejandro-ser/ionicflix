@@ -8,6 +8,7 @@ import { HideHeaderDirective } from './hide-header.directive';
   declarations: [HideHeaderDirective],
   imports: [
     CommonModule
-  ]
+  ],
+  exports: [HideHeaderDirective],
 })
 export class SharedDirectivesModule { }
